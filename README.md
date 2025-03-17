@@ -13,6 +13,7 @@ app.js source chính
 ## API
 1. Chọn chế độ hiển thị
 - Chế độ 1 khung hình
+    ```
     {
         url: http://ip:9988/switch-scene
         data:
@@ -20,8 +21,10 @@ app.js source chính
                 "sceneName": "D1"
             }
     }
+    ```
 
 - Chế độ chia 4 khung hình
+    ```
     {
         url: http://ip:9988/switch-scene
         data:
@@ -29,17 +32,21 @@ app.js source chính
                 "sceneName": "mode 4 view"
             }
     }
+    ```
 
 - Bấm nút lưu ảnh ở màn hình hiện tại:
-    {
+   ``` 
+   {
         url: http://ip:9988/capture
         data:
             {
                "slideName": "k1 || k2 || k3 || k4"
             }
     }
+    ```
 
 - Chuyển màn hình chế độ 4 view:
+    ```
     {
         url: http://ip:9988/setSourceTransform-and-capture
         data:
@@ -52,9 +59,11 @@ app.js source chính
                 "scaleY": 0.75  <!-- Mặc định -->
             }
     }
+    ```
 
 - Chuyển màn hình và lưu ảnh trong chế độ 4 view:
-    {
+   ``` 
+   {
         url: http://ip:9988/setSourceTransform-and-capture
         data:
            {
@@ -67,6 +76,7 @@ app.js source chính
                 "scaleY": 0.75  <!-- Mặc định -->
             }
     }
+    ```
 
 - Thông số chia bảng:
 
