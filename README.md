@@ -48,7 +48,7 @@ app.js source chính
 - Chuyển màn hình chế độ 4 view:
     ```
     {
-        url: http://ip:9988/setSourceTransform-and-capture
+        url: http://ip:9988/setSourceTransform
         data:
            {
                 "sourceName": "Video Capture Device",
