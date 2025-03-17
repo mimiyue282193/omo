@@ -1,0 +1,17 @@
+{
+  "name": "svr_obs_ctl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "obs-websocket-js": "^5.0.6",
+    "path": "^0.12.7"
+  }
+}
