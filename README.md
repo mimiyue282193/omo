@@ -70,12 +70,15 @@ app.js source chính
 
 - Thông số chia bảng:
 
+# Danh sách khung và vị trí
+
 | Tên khung | Ký hiệu | positionX | positionY |
-|-------|-------|-------|
-| Khung 1 | K1 | 0 | 0 |
-| Khung 2 | K2 | 960 | 0 |
-| Khung 3 | K3 | 0 | 540 |
-| Khung 4 | K4 | 960 | 540 |
+|----------|--------|-----------|-----------|
+| Khung 1  | K1     | 0         | 0         |
+| Khung 2  | K2     | 960       | 0         |
+| Khung 3  | K3     | 0         | 540       |
+| Khung 4  | K4     | 960       | 540       |
+
 
 
 ## Tác Giả & Liên Hệ
