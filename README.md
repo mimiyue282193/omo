@@ -4,7 +4,7 @@
 Server điều khiển chế độ màn hình, lưu ảnh, hỗ trợ giảng dạy trong phòng học tích hợp OMO. 
 
 ## Cài Đặt
-Nodejs, npm, OPS, OPS api
+Nodejs, npm, OBS, OBS api
 
 ## Cấu Trúc Dự Án
 screenshots --> Lưu ảnh theo ngày
@@ -77,8 +77,6 @@ app.js source chính
             }
     }
     ```
-
-- Thông số chia bảng:
 
 # Danh sách khung và vị trí
 
